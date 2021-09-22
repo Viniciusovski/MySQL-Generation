@@ -40,7 +40,7 @@ insert into tb_pizza (nome, ingrediente, preco, categoria) values ("Tiramissú",
 -- selects
 select * from tb_pizza where preco > 45;
 select * from tb_pizza where preco between 29 and 60;
-select * from tb_pizza where nome like "C%";
+select * from tb_pizza where nome like "%C%";
 
 select tb_pizza.nome as produto, tb_pizza.preco, tb_categoria.nome as categoria, tb_categoria.garcom from tb_pizza 
 inner join tb_categoria on tb_pizza.categoria = tb_categoria.id_categoria order by tb_pizza.nome;

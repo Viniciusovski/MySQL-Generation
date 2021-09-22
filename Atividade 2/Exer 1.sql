@@ -62,7 +62,7 @@ values ("Lindsey", "Capa", "Atravessar superficies", 1000, 1000);
 -- selects
 select * from tb_personagem where ataque_personagem > 2000;
 select * from tb_personagem where defesa_personagem between 1000 and 2000;
-select * from tb_personagem where nome_personagem like "C%";
+select * from tb_personagem where nome_personagem like "%C%";
 
 select tb_personagem.nome_personagem, tb_personagem.roupa_personagem, tb_personagem.ataque_personagem, tb_personagem.defesa_personagem, tb_personagem.classe_personagaem 
 from tb_personagem inner join tb_classe on tb_classe.id_classe = tb_personagem.classe_personagaem;
