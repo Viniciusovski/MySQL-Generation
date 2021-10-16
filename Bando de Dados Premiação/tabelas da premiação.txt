@@ -1,0 +1,22 @@
+CATEGORIA
+id
+nome da categoria
+nome da obra
+tipo: musica ou album
+vencedor
+Premiação
+Lista de Artistas
+
+ARTISTA
+id
+nome
+genero
+etnia
+tipo: dou/group ou solo
+Categoria
+
+PREMIAÇÃO
+id
+nome
+ano
+Lista de Categorias
